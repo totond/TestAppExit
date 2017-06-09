@@ -50,8 +50,8 @@ public class CloseButton extends android.support.v7.widget.AppCompatButton imple
 //        exitAPP1();
 //        exitAPP2();
 //        exitAPP3();
-        exitAPP4();
-//        exitAPP5();
+//        exitAPP4();
+        exitAPP5();
     }
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
@@ -87,6 +87,5 @@ public class CloseButton extends android.support.v7.widget.AppCompatButton imple
 
     private void exitAPP5() {
         context.sendBroadcast(new Intent(BaseApplication.EXIT));
-//        System.exit(0);
     }
 }
